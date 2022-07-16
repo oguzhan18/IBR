@@ -1,0 +1,111 @@
+.rst-inner-banner-term {
+  padding: 224px 0 124px !important;
+}
+
+.service_title h1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+// .service_title:hover h1 {
+//     font-size: 45px;
+//    color: rgb(255, 255, 255);
+//    line-height: 1;
+//    text-transform: uppercase;
+//    position: relative;
+//    padding-bottom: 50px;
+
+// }
+
+.rst-banner-privacy {
+  margin-bottom: 37px;
+  background: #d1c4e9 none;
+  transition: 1s;
+}
+
+// .rst-banner-privacy:hover {
+//     margin-bottom: 37px;
+//     background:#7b4fa7 none;
+//     transition: 1s;
+//     color: white;
+// }
+
+.rst_content_top_privacy > h2 {
+  color: #000;
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 0 52px 0;
+}
+
+.rst_inner_content_privacy {
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 32px;
+  // padding-top: 65px;
+  background: #ffffff none;
+}
+
+.rst_box_privacy {
+  border: 3px solid #ffffff;
+  padding: 45px 15px 70px 15px;
+  margin-bottom: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}
+
+.rst_box_privacy:hover {
+  border: 3px solid #7b4fa7;
+  padding: 45px 15px 70px 15px;
+  margin-bottom: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  // background-color: #7b4fa7;
+  color: white !important;
+  transition: 0.5s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+// .rst_box_privacy p:hover {
+//     min-height: 160px;
+//     line-height: 26px;
+//     color: #ffffff;
+//     font-size: 14px;
+//     font-weight: 300;
+// }
+
+// .rst_box_privacy h3:hover {
+//     min-height: 45px;
+//     font-weight: 600;
+//     font-size: 18px;
+//     color: rgb(255, 255, 255);
+//     line-height: 20px;
+//     margin: 45px 0 15px 0;
+// }
+
+.backcolor {
+  background-color: #ecf0f4 !important;
+  background-image: url(../../assets/images/purple1.jpg);
+  /* background-image: url(../../assets/img/a15c320b-c679-4f01-9aab-d6dbb4c383a0.png); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.head{
+  margin-bottom: 60px; margin-top: 20px
+}
+.cen{
+  text-align: center
+}

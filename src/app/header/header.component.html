@@ -1,0 +1,73 @@
+<div id="header" class="bg">
+  <div class="rst-inner-header">
+    <div class="container">
+      <div class="rst-logo">
+        <a (click)="Gotohomepage()">
+          <img class="black cur" src="../../assets/images/logos/cpp-purple-logo.png"
+            width="60" height="40" />
+        </a>
+      </div>
+      <div class="rst-nav-menu hideOnMobile">
+        <ul id="primary-menu" class="menu">
+          <li id="" class="
+              menu-item1
+              menu-item-type-post_type
+              menu-item-object-page
+              mega-menu-item
+              showOnMobile
+            ">
+            <a (click)="Gotohomepage()">Home</a>
+          </li>
+          <li id="" class="
+              menu-item1
+              menu-item-type-post_type
+              menu-item-object-page
+              mega-menu-item
+              showOnMobile
+            ">
+            <a (click)="Gotouploadimage()">Image Conversion</a>
+          </li>
+          <li id="" class="menu-item1 menu-item-type-post_type menu-item-object-page">
+            <a (click)="Gotohomepage() ">Home</a>
+          </li>
+        </ul>
+        <ul id="menu-header-2" class="menu">
+          <li id="upload-page" class="menu-item1 menu-item-type-post_type menu-item-object-page">
+            <a id="upload-page-link" (click)="Gotoprivacy()">Privacy</a>
+          </li>
+          <li id="upload-page" class="menu-item1 menu-item-type-post_type menu-item-object-page">
+            <a id="upload-page-link" (click)="Gotocontact()">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="rst-nav-menu showOnMobile" *ngIf="showSideBar">
+
+        <li id="" class="
+        menu-item
+        menu-item-type-post_type
+        menu-item-object-page
+        mega-menu-item
+      ">
+          <a (click)="Gotohomepage() ">Home</a>
+        </li>
+        <ul id="primary-menu" class="menu">
+          <li id="" class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a (click)="Gototermcondition()">Term & Condition</a>
+          </li>
+        </ul>
+        <ul id="menu-header-2" class="menu">
+          <li id="upload-page" class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a id="upload-page-link" (click)="Gotoprivacy()">Privacy</a>
+          </li>
+          <li id="upload-page" class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a id="upload-page-link" (click)="Gotocontact()">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <button class="rst-menu-trigger" (click)="showSideBarMethod()">
+        <span>Toggle navigation</span>
+      </button>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>

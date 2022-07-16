@@ -1,0 +1,106 @@
+.rst-logo{
+    margin-top: 1em;
+
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 45;
+  padding: 20px 0;
+  transition: top 0.4s, padding 0.4s, background 0.2s;
+  border-bottom: 0px solid purple;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bg {
+  background-color: #fff;
+}
+
+////////
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.hideOnMobile {
+  display: flex;
+  visibility: visible;
+}
+.showOnMobile {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 870px) {
+  .hideOnMobile {
+    display: none;
+    visibility: hidden;
+  }
+  .showOnMobile {
+    display: block;
+    visibility: visible;
+  }
+}
+
+.menu-item1 {
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 4px solid transparent;
+}
+
+.menu-item1:hover {
+  color: purple;
+  border-bottom: 4px solid purple;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.cur {
+  cursor: pointer;
+  border-radius:10px;
+  height: 50px;
+  width: 100px;
+}
